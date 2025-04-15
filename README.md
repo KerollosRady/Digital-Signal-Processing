@@ -5,7 +5,7 @@ This project is a **hands-on learning experience** I worked on while studying Di
 The goal was to understand and implement common signal processing techniques from scratch, visualize their effects, and make learning DSP more interactive.
 
 🗂️ **Input and Output Format**:  
-Signals are **read from `.txt` files**, and the processed results are **displayed in the GUI** and also **saved in the `saved_output` folder as `.txt` files** for easy inspection and reuse.
+Signals are **read from `.txt` files**, and the processed results are **displayed in the GUI** and also **saved in the `saved output` folder as `.txt` files** for easy inspection and reuse.
 
 ---
 
@@ -13,12 +13,9 @@ Signals are **read from `.txt` files**, and the processed results are **displaye
 
 The app supports the following signal processing features:
 
-### ✅ Frequency Domain
 - **DFT (Discrete Fourier Transform)**
 - **IDFT (Inverse Discrete Fourier Transform)**
 - **DCT (Discrete Cosine Transform)**
-
-### ✅ Time Domain
 - **Remove DC Component**
 - **Smoothing (Low-pass filtering)**
 - **Sharpening (High-pass filtering)**
@@ -27,8 +24,9 @@ The app supports the following signal processing features:
 - **Convolution with custom filters**
 - **Resampling** – change the sampling rate of the signal
 - **Apply Filters** (Low-pass, High-pass, Band-pass, Band-stop)
+- **Correlation** – measure similarity between signals
 
-Each operation can be applied through a user-friendly GUI, with immediate visual feedback to help understand the effects of each transformation.
+These operations are available through the GUI, providing interactive feedback and the ability to save processed results.
 
 ---
 
